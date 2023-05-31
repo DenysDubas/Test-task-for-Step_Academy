@@ -3,6 +3,7 @@
   border-radius: 5px;
   overflow: hidden;
 }
+
 .accordion-label {
   display: flex;
   justify-content: space-between;
@@ -13,14 +14,15 @@
   cursor: pointer;
   color: #fff;
 }
+
 .accordion-label::after {
-  content: url('../images/Vector\ \(2\).png');;
+  content: url("../images/Vector\ \(2\).png");
   width: 1em;
   height: 1em;
   text-align: center;
   transition: all 0.35s;
-  font-size: 1.313rem;
-  line-height: 1.313rem;
+  font-size: 1.31rem;
+  line-height: 1.31rem;
 }
 
 .accordion-content {
@@ -38,11 +40,6 @@
 .accordion-input:checked + .accordion-label ~ .accordion-content {
   max-height: 100%;
   padding: 1em;
-}
-
-.accordion-content {
-  display: flex;
-  align-items: flex-start;
 }
 
 .accordion-img {

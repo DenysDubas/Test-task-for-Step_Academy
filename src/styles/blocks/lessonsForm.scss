@@ -22,7 +22,7 @@
 .price_lesson {
   display: flex;
   flex-direction: column;
-  background-color: #28292E;
+  background-color: #28292e;
   padding: 24px;
   gap: 48px;
   border-radius: 16px;
@@ -35,7 +35,7 @@
   align-items: flex-start;
   gap: 48px;
 
-  background-color: #28292E;
+  background-color: #28292e;
   border-radius: 16px;
 }
 
@@ -83,7 +83,7 @@
   width: 350px;
   margin-right: 24px;
 
-  background: #3E3F44;
+  background: #3e3f44;
   border-radius: 8px;
 }
 
@@ -99,6 +99,7 @@
   flex-direction: row;
   gap: 10px;
 }
+
 .secondPrice {
   display: flex;
   flex-direction: column;
@@ -107,14 +108,8 @@
   gap: 16px;
   width: 450px;
 
-  background: #3E3F44;
+  background: #3e3f44;
   border-radius: 8px;
-}
-
-.price-container {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
 .price {
@@ -123,7 +118,7 @@
   font-size: 48px;
   line-height: 58px;
 
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .buttonContainer {
@@ -140,9 +135,9 @@
   padding: 13px 32px;
   gap: 10px;
 
-  background: #3E3F44;
+  background: #3e3f44;
   border-radius: 6px;
-  border: #3E3F44 1px;
+  border: #3e3f44 1px;
   color: white;
   font-style: normal;
   font-weight: 600;
@@ -158,9 +153,9 @@
   padding: 13px 32px;
   gap: 10px;
 
-  background: #4744C9;
+  background: #4744c9;
   border-radius: 6px;
-  border: #4744C9 1px;
+  border: #4744c9 1px;
   color: white;
   font-style: normal;
   font-weight: 600;

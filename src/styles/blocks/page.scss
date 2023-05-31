@@ -3,8 +3,6 @@
   font-weight: 500;
   scroll-behavior: smooth;
 
-
-
   &__main {
     background-color: #1d1d1d;
     padding-top: 26px;
@@ -37,7 +35,7 @@
     margin-bottom: 109px;
     margin-top: 120px;
 
-    color: #1D1D1F;
+    color: #1d1d1f;
   }
 
   &__section-about {
@@ -50,12 +48,15 @@
   }
 
   &__section-study {
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
   }
 
   &__section-programe {
     padding: 52px;
-    background-color: #000000;
+    background-color: #000;
     border-radius: 16px;
   }
 
@@ -81,11 +82,11 @@
   font-size: 48px;
   line-height: 58px;
 
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .courses__title {
-  margin: 24px 30px 48px 30px;
+  margin: 24px 30px 48px;
   width: 950px;
   border: 1px #1e1d1d solid;
 }
@@ -109,7 +110,8 @@
 
   border-radius: 4px;
 }
-.logo__ima{
+
+.logo__ima {
   position: relative;
   width: 700px;
   height: 700px;
@@ -132,14 +134,13 @@
   text-transform: uppercase;
   margin-bottom: 81px;
 
-  font-family: 'TroubleSide';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
   letter-spacing: 0.05em;
 
-  color: #A8B3C1;
+  color: #a8b3c1;
 }
 
 .stick {
