@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 24px;
+
+  color: #A8B3C1;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}

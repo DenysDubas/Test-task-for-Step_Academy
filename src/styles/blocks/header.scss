@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: #000000;
+  width: 100%;
+  backdrop-filter: blur(4px);
+  padding: 0 50px;
+
+}

@@ -1,0 +1,21 @@
+@import "./utils/vars";
+@import "./utils/mixins";
+@import "./utils/resets";
+@import "./utils/normalize";
+
+@import "./blocks/favicon.scss";
+@import "./blocks/page.scss";
+@import "./blocks/container.scss";
+@import "./blocks/button.scss";
+
+@import "./blocks/logo.scss";
+@import "./blocks/header.scss";
+@import "./blocks/about.scss";
+@import "./blocks/swiper.scss";
+@import "./blocks/call.scss";
+@import "./blocks/gradient.scss";
+@import "./blocks/accordion.scss";
+@import "./blocks/team.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/programe.scss";
+@import "./blocks/lessonsForm.scss";

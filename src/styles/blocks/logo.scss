@@ -1,0 +1,37 @@
+.logo {
+  &__image {
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    left: 52px;
+    top: 0px;
+    border-bottom-left-radius: 5px;
+  }
+}
+.logo1 {
+  z-index: 9998;
+}
+
+.logo__image1 {
+  position: absolute;
+  width: 90.83px;
+  height: 110.1px;
+  left: 137.74px;
+  top: 124.54px;
+}
+.logo__image2 {
+  position: absolute;
+  width: 120.83px;
+  height: 120.1px;
+  left: 307.74px;
+  top: 448.54px;
+  z-index: 9999;
+}
+
+.logo__image3 {
+  position: absolute;
+  width: 89.94px;
+  height: 95px;
+  left: 612.5px;
+  top: 457px;
+}

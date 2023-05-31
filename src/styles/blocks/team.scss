@@ -1,0 +1,27 @@
+.team-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 110px;
+  max-width: 1200px;
+  gap: 10px;
+}
+
+.team-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #1D1D1F;
+}
+
+.team-description {
+  color: #747478;
+}
+
+.team-photo {
+  margin-top: 96px;
+}

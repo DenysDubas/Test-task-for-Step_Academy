@@ -1,0 +1,159 @@
+.page {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  scroll-behavior: smooth;
+
+
+
+  &__main {
+    background-color: #1d1d1d;
+    padding-top: 26px;
+  }
+
+  &__section {
+    margin-bottom: 92px;
+
+    @include onTablet {
+      margin-bottom: 120px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 160px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__section-title {
+    display: block;
+    text-align: center;
+    margin: 0 0 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 109px;
+    margin-top: 120px;
+
+    color: #1D1D1F;
+  }
+
+  &__section-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 200px;
+  }
+
+  &__section-study {
+    background-color: #fff;
+  }
+
+  &__section-programe {
+    padding: 52px;
+    background-color: #000000;
+    border-radius: 16px;
+  }
+
+  &__section-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #fff;
+  }
+}
+
+.section {
+  padding: 52px;
+  background-color: white;
+}
+
+.courses {
+  margin-top: 110px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #FFFFFF;
+}
+
+.courses__title {
+  margin: 24px 30px 48px 30px;
+  width: 950px;
+  border: 1px #1e1d1d solid;
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.logo__im {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+
+  border-radius: 4px;
+}
+.logo__ima{
+  position: relative;
+  width: 700px;
+  height: 700px;
+  margin-left: 5px;
+
+  border-radius: 4px;
+  z-index: 9999;
+  transition: transform 0.3s ease;
+}
+
+.div1 {
+  position: relative;
+}
+
+.underVideo {
+  position: relative;
+  display: flex;
+  text-align: left;
+  width: 1000px;
+  text-transform: uppercase;
+  margin-bottom: 81px;
+
+  font-family: 'TroubleSide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+
+  color: #A8B3C1;
+}
+
+.stick {
+  position: absolute;
+  left: -6%;
+  right: 57%;
+  top: -35%;
+  bottom: -300%;
+}
+
+.stic {
+  position: absolute;
+  left: -6%;
+  right: 57%;
+  top: -41%;
+  bottom: -300%;
+}
